@@ -7,28 +7,46 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <script src="https://kit.fontawesome.com/d4c0dbaccd.js" crossorigin="anonymous"></script>
     <title>Fox Jam Games</title>
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <img id="logo" src=""alt="Logo" style="opacity: 1;">
-            <nav>
-            <a href="#jogos">
-                <span>Nossos Jogos brabos!</span>
-            </a>
-            <a href="#">
-                <span> Quem somos, de onde viemos?</span>
-            </a>
-            <a href="#">
-                <span> Contato com o JEDI</span>
-            </a>
-          </nav>
-        </div>
+        <div class="logo"><img src="" alt="logo" srcset=""></div>
+        <nav>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            </label>
+            <ul class="menu">
+            <li><a href="#sobreNos">QUEM SOMOS, DE ONDE VIEMOS?</a></li>
+            <li><a href="#jogos">NOSSOS JOGOS BRABOS</a></li>
+            <li><a href="#contato">CONTATO COM O JEDI</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section class="jogos" name="jogos">
-            <p>NOSSOS JOGOS</p>
+    <main id="main-content">
+        <section class="sobreNos" id="sobreNos">
+            <h2>QUEM SOMOS, DE ONDE VIEMOS?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quaerat et! Ipsam illo eveniet quibusdam officia vero non velit. Doloremque reiciendis, tenetur id fuga sequi voluptates minus molestiae eaque commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iste accusantium voluptatum consequuntur possimus debitis laborum delectus, quam, fugiat officia quibusdam reiciendis repudiandae, accusamus ipsum facilis excepturi alias. Itaque, corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veritatis praesentium consequuntur laboriosam! Nobis eveniet alias ad iste eum, delectus veritatis ullam rerum aliquid harum ex aspernatur ipsam accusamus fugiat.</p>
+            <div class="data">
+                <div class="sectionData">
+                    <i class="fa-solid fa-download" style="color: #f57c00;"></i>
+                    <p>+1000 <br>
+                    DE DOWNLOADS!</p>
+                </div>
+                <div class="sectionData">
+                    <i class="fa-solid fa-gamepad" style="color: #f57c00;"></i>
+                    <p>2 JOGOS</p>
+                </div>
+            </div>
+        </section>
+        <div class="fusao1"></div>
+        <section class="jogos" id="jogos">
+            <p>NOSSOS JOGOS BRABOS</p>
             <h2>TODOS ESTÃO JOGANDO!</h2>
 
             <div class="cards">
@@ -41,7 +59,7 @@
                             <img src="assets/img/BouncyFox.png" alt="" srcset="">
                         </div>
                         <div class="backSide">
-                            <p class="">Descrição do Jogo</p>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, omnis officiis reprehenderit fugiat excepturi, dolorum id velit dignissimos, voluptate aperiam illum! Aliquam sequi illum eveniet animi nam veniam repellendus quod?</p>
                             <a class="playstore-button" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
                                   <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
@@ -63,7 +81,7 @@
 
                         </div>
                         <div class="backSide">
-                            <p class="">Descrição do Jogo</p>
+                            <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam rem, nihil nam veritatis et quo assumenda error ex cum quia facilis? Expedita quidem temporibus libero maxime voluptatum labore consequuntur rem!</p>
                             <a class="playstore-button" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
                                   <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
@@ -79,9 +97,23 @@
                 </div>
             </div>
         </section>
+        <div class="fusao2"></div>
+        <section class="contato" id="contato">
+            <h2>CONTATO COM O JEDI</h2>
+            <p>Contate-nos</p>
+            <a href="mailto:">rodolfoms@gmail.com</a>
+        </section>
+        <div class="fusao1"></div>
     </main>
-    <script>
-
-    </script>
+    <footer id="footer-content">
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+          <p>&copy; 2023 Developed By <a href="https://www.linkedin.com/in/davi-garutti/">Davi Garutti</a>. Todos os direitos reservados.</p>
+    </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

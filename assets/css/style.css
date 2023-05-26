@@ -10,10 +10,15 @@ main{
     flex-direction: column;
 }
 .jogos{
+    color: white;
+    background-color: #EF6C00;
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
     text-align: center;
+    padding-bottom: 5vh;
+}
+.jogos p{
+    margin-top: 5vh;
 }
 .jogos .cards{
     display: flex;
@@ -21,4 +26,116 @@ main{
 }
 .myCard{
     margin: 5vw;
+}
+
+.sobreNos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+    text-align: center;
+}
+.sobreNos h2{
+    margin-bottom: 5vh;
+}
+.sobreNos p{
+    width: 50vw;
+}
+
+.sectionData{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+.sectionData i{
+    font-size: 4rem;
+    margin-bottom: 2vh
+}
+.sectionData p{
+    width: 25vw;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 5vh
+}
+.sectionData p:hover{
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+.data{
+    margin-top: 5vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fusao1{
+    height: 15vh;
+    background-image: linear-gradient(-178deg, #fff 49% ,#EF6C00 50%);
+}
+.fusao2{
+    height: 15vh;
+    background-image: linear-gradient(178deg, #EF6C00 49% ,#fff 50%);
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    align-items: center;
+}
+.contato h2{
+
+    margin-bottom: 5vh;
+}
+.contato p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #535252a9;
+}
+.contato a{
+    color: #EF6C00;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contato a:hover{
+    transition: .5s;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 768px) {  
+    .sobreNos{
+        margin-top: 20vh;
+    }
+    .sobreNos p {
+        width: 80vw;
+    }
+
+    .data{
+        margin-top: 10vh;
+        width: 80vw;
+        flex-direction: column;
+    } 
+    
+    .sectionData{
+        margin-bottom: 5vh;
+        width: 80vw;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 10vh;
+        width: 100vw;
+    }
+
+    .contato a{
+        font-size: 1.5rem;
+    }
 }

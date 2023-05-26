@@ -1,0 +1,36 @@
+footer {
+    background-color: #EF6C00;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-media a {
+    color: white;
+    font-size: 24px;
+    margin: 0 8px;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #000;
+  }
+  
+  .social-media i {
+    transition: color 0.3s;
+  }
+  
+  @media (max-width: 900px) {
+    .social-media {
+      flex-wrap: wrap;
+    }
+    
+    .social-media a {
+      margin-bottom: 10px;
+    }
+  }

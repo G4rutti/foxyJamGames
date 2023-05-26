@@ -57,6 +57,9 @@
     color: white;
     font-weight: 700;
   }
+  .backSide p{
+    width: 85%;
+  }
   
 
   
@@ -125,3 +128,29 @@
       opacity: 0.3;
     }
   }
+
+@media (max-width: 768px) {  
+  .myCard {
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 5vh;
+    perspective: 1000px;
+    }
+
+  .frontSide img{
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .innerCard{
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .frontSide,
+  .backSide {
+    width: 80vw;
+    height: 50vh;
+  }
+}
