@@ -40,6 +40,9 @@
   .myCard:hover .innerCard {
     transform: rotateY(180deg);
   }
+  .myCard:hover .innerCard .title {
+    display: none;
+  }
   
   .frontSide,
   .backSide {
