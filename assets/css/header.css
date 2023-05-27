@@ -114,11 +114,6 @@ nav a {
     transition: all 0.3s ease; /* Adicionado para suavizar a transição */
   }
   
-scroll-container {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-  }
-
   @media (max-width: 768px) {  
     .logo,
   .menu {
