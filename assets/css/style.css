@@ -11,7 +11,7 @@ main{
 }
 .jogos{
     color: white;
-    background-color: #EF6C00;
+    background-color: #222220;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -71,11 +71,11 @@ main{
 
 .fusao1{
     height: 15vh;
-    background-image: linear-gradient(-178deg, #fff 49% ,#EF6C00 50%);
+    background-image: linear-gradient(-178deg, #fff 49% ,#222220 50%);
 }
 .fusao2{
     height: 15vh;
-    background-image: linear-gradient(178deg, #EF6C00 49% ,#fff 50%);
+    background-image: linear-gradient(178deg, #222220 49% ,#fff 50%);
 }
 
 .contato{
@@ -97,14 +97,32 @@ main{
     color: #535252a9;
 }
 .contato a{
-    color: #EF6C00;
+    color: #222220;
     font-size: 1.8rem;
     text-transform: uppercase;
     cursor: pointer;
 }
-.contato a:hover{
-    transition: .5s;
-    letter-spacing: 2px;
+.contatoCEO{
+    display: flex;
+}
+.sectionContact{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5vw 5vw;
+}
+.media-social a i{
+    margin: 2vw;
+}
+.sectionContact img{
+    border-radius: 1000px;
+    width: auto;
+    height: 50vh;
+}
+
+.imgLogo{
+    width: 5vw;
 }
 
 
@@ -136,6 +154,23 @@ main{
     }
 
     .contato a{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .imgLogo{
+        width: 20vw;
+    }
+    .contatoCEO{
+        flex-direction: column;
+    }
+    .sectionContact img{
+        margin: auto;
+        border-radius: 1000px;
+        height: auto;
+        width: 60vw;
+    }
+
+    .media-social a i{
+        margin-top: 5vh;
+        font-size: 2rem;
     }
 }

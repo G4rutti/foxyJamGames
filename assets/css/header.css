@@ -6,7 +6,7 @@ header {
     position: fixed;
     z-index: 100;
     width: 100%;
-    background-color: #EF6C00;
+    background-color:#222220;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,9 +20,9 @@ header {
     transform: translateY(150px);
   }
 
-  .logo {
-    width: 200px;
-    height: auto;
+  .logo img{
+    height: 10vh;
+    width: auto;
   }
   
   nav {
@@ -34,16 +34,16 @@ header {
     color: inherit;
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-bottom-color: black;
-    color: black;
+    border-bottom-color: wheat;
+    color: wheat;
 }
 nav a:target{
     text-decoration: none;
     color: inherit;
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-bottom-color: black;
-    color: black;
+    border-bottom-color: wheat;
+    color: wheat;
 }
 nav a {
     scroll-behavior: auto;
@@ -139,7 +139,7 @@ nav a {
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #EF6C00;
+    background-color: #222220;
   }
   #menu-toggle:checked ~ .menu-btn span:nth-child(2) {
     opacity: 0; /* Ocultar o segundo traço */

@@ -1,7 +1,14 @@
 footer {
-    background-color: #EF6C00;
+    background-color: #222220;
     padding: 20px;
     text-align: center;
+  }
+  
+  footer p{
+    color: #fff;
+  }
+  footer a{
+    color: wheat;
   }
   
   .social-media {
@@ -15,14 +22,6 @@ footer {
     font-size: 24px;
     margin: 0 8px;
     text-decoration: none;
-  }
-  
-  .social-media a:hover {
-    color: #000;
-  }
-  
-  .social-media i {
-    transition: color 0.3s;
   }
   
   @media (max-width: 900px) {

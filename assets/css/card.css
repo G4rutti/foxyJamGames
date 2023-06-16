@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 .myCard {
   width: 20vw;
   height: 45vh;
@@ -5,7 +7,8 @@
   }
   
   .title{
-    -webkit-text-stroke-width: 2px; /* largura da borda */
+    font-family: 'Luckiest Guy', cursive;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
     -webkit-text-stroke-color: #000; /* cor da borda */
     z-index: 1;
     position: absolute;
@@ -68,7 +71,7 @@
   
   .backSide,
   .backSide::before {
-    background: linear-gradient(43deg, #F57C00,#FB8C00 100%);
+    background: linear-gradient(43deg, #222220,#383732 100%);
   }
   
   .backSide {
@@ -132,6 +135,30 @@
     }
   }
 
+.svgItch{
+  width: 5vw;
+}
+.btn{
+    display: inline-flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    outline: 0;
+    transition: all  .2s ease;
+    text-decoration: none;
+    width: 20vw;
+    height: 15vh;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+
 @media (max-width: 768px) {  
   .myCard {
     width: 80vw;
@@ -155,5 +182,12 @@
   .backSide {
     width: 80vw;
     height: 50vh;
+  }
+
+  .btn{
+    width: 80vw;
+  }
+  .svgItch{
+    width: 15vw;
   }
 }
