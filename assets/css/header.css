@@ -31,9 +31,6 @@ header {
   }
   nav a:hover {
     text-decoration: none;
-    color: inherit;
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
     border-bottom-color: wheat;
     color: wheat;
 }
