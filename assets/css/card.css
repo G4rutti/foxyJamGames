@@ -93,10 +93,22 @@
     transition: all  .2s ease;
     text-decoration: none;
   }
+
+  .playstore-button svg {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
+  }
+
+  .playstore-button:hover svg {
+    fill: rgba(0, 0, 0, 1);
+    background-color: transparent;
+  }
   
   .playstore-button:hover {
     background-color: transparent;
     color: rgba(0, 0, 0, 1);
+    fill: rgba(0, 0, 0, 1);
   }
   
   .icon {
